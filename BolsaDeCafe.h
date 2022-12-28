@@ -22,9 +22,9 @@ public:
 	}
 };
 
-class CajaPequeña : public BolsaDeCafe {
+class CajaPequena : public BolsaDeCafe {
 public:
-	CajaPequeña() {
+	CajaPequena() {
 		precio = 1000;
 	}
 };

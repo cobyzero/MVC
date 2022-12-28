@@ -6,12 +6,12 @@ using namespace std;
 
 void Controller::CalularPedido(Model& m) {
 
-	int grandes = 2, medianos = 1, pequeños = 1, ordenadas = 52;
+	int grandes = 2, medianos = 1, pequenos = 1, ordenadas = 52;
   
 	cout << "Usted tiene:" << endl;
 	cout << "Cajas Grandes: " << grandes << endl;
 	cout << "Cajas Medianas: " << medianos << endl;
-	cout << "Cajas Pequeñas: " << pequeños << endl;
+	cout << "Cajas Pequenas: " << pequenos << endl;
 	cout << "Cajas Ordenadas: " << ordenadas << endl;
 	cout << "Costo Total: " << m.getSumaDePares() << endl; 
 

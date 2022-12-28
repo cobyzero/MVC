@@ -15,8 +15,8 @@ Model::Model() {
 	/* 1 cajas medianas */
 	data.push_back(CajaMediana());
 
-	/* 2 cajas pequeñas */
-	data.push_back(CajaPequeña());
+	/* 2 cajas pequenas */
+	data.push_back(CajaPequena());
 
 	/* 52 cajas ordenadas */
 	data.push_back(CajaOrdenadas(52));
