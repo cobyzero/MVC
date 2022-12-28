@@ -11,8 +11,7 @@ using namespace std;
 
 int main()
 {
-	/* Agrego los datos de los pedidos */
-	  
+	   
 	Model model = Model();
 	View v = View(model);
 
