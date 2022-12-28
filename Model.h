@@ -12,15 +12,7 @@ public:
 	vector<BolsaDeCafe>& getData() { return data; }
 	
 
-	int getSumaDePares() {
-		int sumaDePares = 0;
+	int getSumaDePares();
 		 
-		for (size_t i = 0; i < data.size(); i++)
-		{
-			sumaDePares += data[i].getPrecio();
-		}
-		 
-		return sumaDePares;
-	}
 };
 

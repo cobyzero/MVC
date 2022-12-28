@@ -14,3 +14,14 @@ Model::Model() {
 
 	data.push_back(CajaOrdenadas(52));
 }
+
+int Model::getSumaDePares() {
+	int sumaDePares = 0;
+
+	for (size_t i = 0; i < data.size(); i++)
+	{
+		sumaDePares += data[i].getPrecio();
+	}
+
+	return sumaDePares;
+}
