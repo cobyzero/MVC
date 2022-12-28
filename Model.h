@@ -6,12 +6,13 @@ using namespace std;
 
 class Model
 {
+	/* Data de todo el programa */
 	vector<BolsaDeCafe>data;  
 public:
-	Model();
-	vector<BolsaDeCafe>& getData() { return data; }
+	Model(); /* constructor */
+	vector<BolsaDeCafe>& getData() { return data; } /* get de Data */
 	
-
+	/* calcula la suma de pares y devuelve el valor */
 	int getSumaDePares();
 		 
 };

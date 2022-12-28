@@ -13,6 +13,7 @@ void View::Menu()
 	cout << "2. Sumar Pares." << endl;
 	cout << "3. Calcular Bisiesto" << endl;
 	cout << "4. Salir " << endl;
+
 		int opcion;
 		cin >> opcion;
 
@@ -35,8 +36,26 @@ void View::Menu()
 			break;
 		default:
 			break;
-		}
+		} 
+}
 
-	 
-	
+
+void View::VolverAlInicio() {
+	int opcion = 0;
+	cout << "Desea volver al Inicio? 1.Si/ 2.No" << endl;
+	cin >> opcion;
+
+	if (opcion == 1  )
+	{
+		system("cls"); /* pone en la consola cls que es limpiar consola */
+		Menu(); /* accede nuevamente*/
+
+	}
+	else if (opcion == 2) {
+		system(0); /* termina el programa */
+	}
+	else {
+		VolverAlInicio(); /* vuelve a entrar ala misma funcion si pone un dato diferente como un bucle */
+	}
+
 }

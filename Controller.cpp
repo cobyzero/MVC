@@ -19,8 +19,7 @@ void Controller::CalularPedido(Model& m) {
 }
 
 void Controller::SumarPares(Model& m)
-{
-	 
+{ 
 	int numero, numeroDividido = 0;
 	cout << "Ingresa un numero para dividir: ";
 	cin >> numero;
@@ -34,9 +33,7 @@ void Controller::anioViciesto()
 {
 	int anio;
 	cout << "Ingresa Anio: "; cin >> anio;
-
 	 
-	
 	if (anio % 4 == 0 and anio % 100 != 0 or anio % 400 == 0)
 	{
 		cout << "Anio Bisiesto" << endl;

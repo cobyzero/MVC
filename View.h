@@ -3,28 +3,13 @@
 
 class View
 {
-	Model  m;
+	Model  m; /* Variable local donde estara  el modelo base */
 public:
 	View(Model _m) {
 		 m = _m;
 	}
-	void Menu();
+	void Menu(); /* Menu de la interaccion del usuario */
 
-	void VolverAlInicio() {
-		int opcion = 0;
-		cout << "Desea volver al Inicio? 1.Si/ 2.No" << endl;
-		cin >> opcion;
-
-		if (opcion == 1 || opcion == 2)
-		{
-			system("cls");
-			Menu();
-			
-		}
-		else {
-			VolverAlInicio();
-		}
-		
-	}
+	void VolverAlInicio(); /* funcion para regresar al menu borrando la pantalla */
 };
 
